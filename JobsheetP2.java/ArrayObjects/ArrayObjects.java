@@ -3,11 +3,7 @@ import java.util.Scanner;
 public class ArrayObjects {
     public static void main(String[] args) {
         Scanner sc21 = new Scanner(System.in);
-
-        System.out.println("Masukkan panjang array : ");
-        int banyakArr = sc21.nextInt();
-        persegipanjang[] ppArray = new persegipanjang[banyakArr];
-        
+        persegipanjang[] ppArray = new persegipanjang[3];
 
         for (int i = 0; i < 3; i++) {
             ppArray[i] = new persegipanjang();
